@@ -39,9 +39,8 @@ class Alcoholes {
 		//Este método sera sobrescrito en las clases hijas 
 		string printAlcohol();
 		
-		//Polimorfismo
-		virtual void calidad(){cout<<"\nCalidad del producto\n"}; 
-		virtual string printAlcohol();
+		//Polimorfismo 
+		virtual string printAlcohol()=0;
 		       
 };
 

@@ -66,33 +66,33 @@ class Inventario{
 		
 			
 		void Inventario::crea_ejemplos(){
-		inv[serie]=new Tequila("Grande", 580.56, "Guadalajara", 7, 15.2,"Don Julio", "Blanco", 46.5);
-		serie++;
-		}
-		inv[serie]=new Tequila("Mediano", 489.56, "Tamaulipas", 5, 13.2,"José Cuervo", "Amarillo", 56.2);
-		serie++;
-		}
-		inv[serie]=new Tequila("Chico", 1236.54, "Tijuana", 12, 9.8,"Olmeca", "Cristalino", 75.4);
-		serie++;
-		}
-		inv[serie]=new Vodka("Grande", 1056.48, "Estados Unidos", 3, 17,"Absolut", "Frambuesa", "Centeno");
-		serie++;
-		}
-		inv[serie]=new Vodka("Chico", 1352.47, "Canadá", 1, 7.56,"Crystal Head", "Mora azul", "Patatas");
-		serie++;
-		}
-		inv[serie]=new Vodka("Mediano", 2500.50, "Rusia", 2, 15.6,"BELVEDERE", "Zarzamóra", "Trigo");
-		serie++;
-		}
-		inv[serie]=new Whiskey("Mediano", 956.32, "Holanda", 14, 19.2,"Crown Royal", "Maíz", "Roble Pedunculado");
-		serie++;
-		}
-		inv[serie]=new Whiskey("Grande", 2700.00, "Irlanda", 30, 21.6,"Ballantine's", "Naranja", " Roble americano");
-		serie++;
-		}
-		inv[serie]=new Whiskey"Chico", 3600.50, "Escocia", 50, 18.5,"Jim Beam", "Mandarina", "Roble japonés"
-		serie++;
-		}
+			inv[serie]=new Tequila("Grande", 580.56, "Guadalajara", 7, 15.2,"Don Julio", "Blanco", 46.5);
+			serie++;
+		
+			inv[serie]=new Tequila("Mediano", 489.56, "Tamaulipas", 5, 13.2,"José Cuervo", "Amarillo", 56.2);
+			serie++;
+		
+			inv[serie]=new Tequila("Chico", 1236.54, "Tijuana", 12, 9.8,"Olmeca", "Cristalino", 75.4);
+			serie++;
+		
+			inv[serie]=new Vodka("Grande", 1056.48, "Estados Unidos", 3, 17,"Absolut", "Frambuesa", "Centeno");
+			serie++;
+		
+			inv[serie]=new Vodka("Chico", 1352.47, "Canadá", 1, 7.56,"Crystal Head", "Mora azul", "Patatas");
+			serie++;
+		
+			inv[serie]=new Vodka("Mediano", 2500.50, "Rusia", 2, 15.6,"BELVEDERE", "Zarzamóra", "Trigo");
+			serie++;
+		
+			inv[serie]=new Whiskey("Mediano", 956.32, "Holanda", 14, 19.2,"Crown Royal", "Maíz", "Roble Pedunculado");
+			serie++;
+		
+			inv[serie]=new Whiskey("Grande", 2700.00, "Irlanda", 30, 21.6,"Ballantine's", "Naranja", " Roble americano");
+			serie++;
+		
+			inv[serie]=new Whiskey("Chico", 3600.50, "Escocia", 50, 18.5,"Jim Beam", "Mandarina", "Roble japonés");
+			serie++;
+			}
 			
 			
 		void Inventario::muestraAlcohol(){

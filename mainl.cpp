@@ -28,16 +28,7 @@ int main(){
 	//invent.muestraWhiskey();
 	
 	
-	Alcoholes *alc = new Tequila();
-	Alcoholes *al = new Vodka();
-	Alcoholes *alco = new Whiskey();
-	alc->calidad();
-	al->calidad();
-	alco->calidad();
-	
-	delete alc;
-	delete al;
-	delete alco;
+
 	
 	return 0;	
 }
