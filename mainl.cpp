@@ -15,20 +15,15 @@ int main(){
 	invent.crea_ejemplos();
 	invent.muestraAlcohol();
 	
-	//invent.ejemploTequila();
-	//cout<<"Informacion sobre Tequila"<<"\n";
-	//invent.muestraTequila();
-	
-	//invent.ejemploVodka();
-	//cout<<"Informacion sobre Vodka"<<"\n";
-	//invent.muestraVodka();
-	
-	//invent.ejemploWhiskey();
-	//cout<<"Informacion sobre Whiskey"<<"\n";
-	//invent.muestraWhiskey();
-	
-	
 
+	/*cout<<"Vamos a modificar el precio de un licor"<<"\n",
+	cout<<"El licor que modificaremos es Don Julio"<<"\n",
+	cout<<"Cuyo precio aumentara 500 pesos"<<"\n",
+	invent.aumentaPrecio("Don Julio", 500);
+			
+	cout<<"Vamos a aumentar la edad en un año a un licor"<<"\n",
+	cout<<"El licor que modificaremos es José Cuervo"<<"\n",
+	invent.agregaTiempo("José Cuervo");*/
 	
 	return 0;	
 }

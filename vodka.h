@@ -17,53 +17,28 @@ class Vodka: public Alcoholes{
 	//Variables de instancia del objeto Vodka
 	private:
 	//Son privadas porque no me interesa que otras clases interactuen con sus atributos 
-		string nombrevodka;
 		string sabor;
 		string grano; 
 		
 	public:
 	//Métodos del objeto Vodka
 	//Constructores 
-		Vodka(): nombrevodka(""), sabor(""), grano(""){};
-		Vodka(string t, float p, string o, int e, int g,string nomvod, string sab, string gran): Alcoholes(t, p, o, e, g){
-			nombrevodka=nomvod;
+		Vodka():sabor(""), grano(""){};
+		Vodka(string n, string t, float p, string o, int e, int g, string sab, string gran): Alcoholes(n, t, p, o, e, g){
 			sabor=sab;
 			grano=gran;
 		};
 
-		string getNombrevodka();
-		string getSabor();
-		string getGrano();
-		void setNombrevodka(string);
+	
 		//Sobreescribe a printAlcohol de la clase Alcoholes
 		string printAlcohol();
-		//Polimorfismo
-		void calidad(){cout<<"Calidad del vodka: 4 estrellas\n";}
 };
 
-//Getters 
-//Get de nombrevodka
-string Vodka::getNombrevodka(){
-	return nombrevodka;
-}
-//Get de sabor
-string Vodka::getSabor(){
-	return sabor;
-}
-//Get de grano
-string Vodka::getGrano(){
-	return grano;
-}
-
-//Set de nombrevodka
-void Vodka::setNombrevodka(string namevodka){
-	nombrevodka=namevodka;
-}
 
 //Sobreescritura de printAlcohol
 string Vodka::printAlcohol(){
 	stringstream a;
-	a<<"Nombre del vodka: "<<nombrevodka<<"\tSabor: "<<sabor<<"\tGrano: "<<grano<<"\n";
+	a<<"Nombre del vodka: "<<nombre<<"\tSabor: "<<sabor<<"\tGrano: "<<grano<<"\n";
 	a << "Tamaño: " << tamano << "\tPrecio: " << precio << "\n";
 	a << "Origen: " <<origen<< "\tEdad: "<<edad<<"\tGrado: "<< grado<<"\n";
 	return a.str();
