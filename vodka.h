@@ -8,7 +8,7 @@
 
 #include "alcoholes.h"
 #include <string>
-#include <iostream>
+#include <iostream> //para imprimir 
 #include <sstream>
 using namespace std; 
 
@@ -35,7 +35,7 @@ class Vodka: public Alcoholes{
 };
 
 
-//Sobreescritura de printAlcohol
+//Sobreescritura de la función printAlcohol
 string Vodka::printAlcohol(){
 	stringstream a;
 	a<<"Nombre del vodka: "<<nombre<<"\tSabor: "<<sabor<<"\tGrano: "<<grano<<"\n";

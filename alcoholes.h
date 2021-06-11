@@ -7,7 +7,7 @@
 #define ALCOHOLES_H_
 
 #include <string>
-#include <iostream>
+#include <iostream> //para imprimir 
 #include <sstream>
 
 using namespace std;
@@ -38,7 +38,7 @@ class Alcoholes {
 		void aumentaEdad();
 		string getNombre();
 		
-		//Polimorfismo 
+		//Polimorfismo (clase abstracta)
 		virtual string printAlcohol()=0;
 		       
 };
@@ -71,28 +71,22 @@ Alcoholes::Alcoholes(string nom, string size, float pre, string ori, int age, in
 float Alcoholes::getPrecio(){
     return precio;
 }
-
+//Set de precio
 void Alcoholes::setPrecio(float p){
 	precio=p;
 }
-
+//Get de edad
 int Alcoholes::getEdad(){
 	return edad;
 }
-
+//Función para incrementar la edad 
 void Alcoholes::aumentaEdad(){
    edad++;
 }
-
+//Get de Nombre
 string Alcoholes::getNombre(){
    return nombre;
 }
 
-/*string Alcoholes::printAlcohol(){
-	stringstream a;
-	a << "Tamaño: " << tamano << "Precio: " << precio << "\n";
-	a << "Origen: " <<origen<< "Edad: "<<edad<<"Grado: "<< grado<<"\n";
-	return a.str();
-}*/
-	
+
 #endif
