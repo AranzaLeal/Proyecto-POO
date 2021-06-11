@@ -1,7 +1,7 @@
 # Proyecto Integrador-POO
 Trata sobre un inventario de alcoholes el cual 
 nos permite llevar un registro de las bebidas almacenadas, 
-así como ir actualizando la informacion con el pasar del tiempo. 
+así como ir actualizando la información con el pasar del tiempo. 
 
 # Funcionalidad del Programa 
 El programa nos permite ingresar nuevos alcoholes y 
@@ -11,8 +11,8 @@ cambiar ciertas características, siempre y cuando sean de tipo:
 -Whiskey
 
 # Consideraciones
-El pragrama solo corre adentro de la consola y
-esta realizado en el lenguaje c++ por lo que corre 
+El programa solo corre adentro de la consola y
+está realizado en el lenguaje c++ por lo que corre 
 en todos los sistemas operativos.
  
   Recuerda: 
